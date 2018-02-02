@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A0D7F4B9D56C30C682271DE /* Pods_2018_Greenbelt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E45D854772A1707B803939 /* Pods_2018_Greenbelt.framework */; };
 		FBA9F4AB2023E41B0075E7A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA9F4AA2023E41B0075E7A4 /* AppDelegate.swift */; };
 		FBA9F4AD2023E41B0075E7A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA9F4AC2023E41B0075E7A4 /* ViewController.swift */; };
 		FBA9F4B02023E41B0075E7A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA9F4AE2023E41B0075E7A4 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		FBA9F4B82023E41B0075E7A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA9F4B62023E41B0075E7A4 /* LaunchScreen.storyboard */; };
 		FBA9F4C32023E41B0075E7A4 /* _018_GreenbeltTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA9F4C22023E41B0075E7A4 /* _018_GreenbeltTests.swift */; };
 		FBA9F4CE2023E41B0075E7A4 /* _018_GreenbeltUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA9F4CD2023E41B0075E7A4 /* _018_GreenbeltUITests.swift */; };
+		FBA9F4DC2023F9D00075E7A4 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA9F4DB2023F9D00075E7A4 /* WeatherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F2E3E9C7CD76567CF58B98B /* Pods-2018_Greenbelt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2018_Greenbelt.release.xcconfig"; path = "Pods/Target Support Files/Pods-2018_Greenbelt/Pods-2018_Greenbelt.release.xcconfig"; sourceTree = "<group>"; };
+		40D9C75913E3D62F7CDD80C3 /* Pods-2018_Greenbelt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2018_Greenbelt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-2018_Greenbelt/Pods-2018_Greenbelt.debug.xcconfig"; sourceTree = "<group>"; };
+		B1E45D854772A1707B803939 /* Pods_2018_Greenbelt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_2018_Greenbelt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA9F4A72023E41B0075E7A4 /* 2018_Greenbelt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2018_Greenbelt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA9F4AA2023E41B0075E7A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBA9F4AC2023E41B0075E7A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		FBA9F4C92023E41B0075E7A4 /* 2018_GreenbeltUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2018_GreenbeltUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA9F4CD2023E41B0075E7A4 /* _018_GreenbeltUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _018_GreenbeltUITests.swift; sourceTree = "<group>"; };
 		FBA9F4CF2023E41B0075E7A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBA9F4DB2023F9D00075E7A4 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A0D7F4B9D56C30C682271DE /* Pods_2018_Greenbelt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		381C4C57AE4D9909BFED231D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40D9C75913E3D62F7CDD80C3 /* Pods-2018_Greenbelt.debug.xcconfig */,
+				1F2E3E9C7CD76567CF58B98B /* Pods-2018_Greenbelt.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3015DA43EF1BF8BDF37409F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1E45D854772A1707B803939 /* Pods_2018_Greenbelt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FBA9F49E2023E41A0075E7A4 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +107,8 @@
 				FBA9F4C12023E41B0075E7A4 /* 2018_GreenbeltTests */,
 				FBA9F4CC2023E41B0075E7A4 /* 2018_GreenbeltUITests */,
 				FBA9F4A82023E41B0075E7A4 /* Products */,
+				381C4C57AE4D9909BFED231D /* Pods */,
+				C3015DA43EF1BF8BDF37409F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +132,7 @@
 				FBA9F4B62023E41B0075E7A4 /* LaunchScreen.storyboard */,
 				FBA9F4B92023E41B0075E7A4 /* Info.plist */,
 				FBA9F4B12023E41B0075E7A4 /* _018_Greenbelt.xcdatamodeld */,
+				FBA9F4DB2023F9D00075E7A4 /* WeatherViewController.swift */,
 			);
 			path = 2018_Greenbelt;
 			sourceTree = "<group>";
@@ -135,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBA9F4D22023E41B0075E7A4 /* Build configuration list for PBXNativeTarget "2018_Greenbelt" */;
 			buildPhases = (
+				F0371FFBD5B887B3C2C77629 /* [CP] Check Pods Manifest.lock */,
 				FBA9F4A32023E41B0075E7A4 /* Sources */,
 				FBA9F4A42023E41B0075E7A4 /* Frameworks */,
 				FBA9F4A52023E41B0075E7A4 /* Resources */,
+				0A072BD8BE256F9DE3A6E341 /* [CP] Embed Pods Frameworks */,
+				DE8D3646D99606740510F2C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +287,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A072BD8BE256F9DE3A6E341 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-2018_Greenbelt/Pods-2018_Greenbelt-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-2018_Greenbelt/Pods-2018_Greenbelt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE8D3646D99606740510F2C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-2018_Greenbelt/Pods-2018_Greenbelt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0371FFBD5B887B3C2C77629 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-2018_Greenbelt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FBA9F4A32023E41B0075E7A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FBA9F4B32023E41B0075E7A4 /* _018_Greenbelt.xcdatamodeld in Sources */,
+				FBA9F4DC2023F9D00075E7A4 /* WeatherViewController.swift in Sources */,
 				FBA9F4AD2023E41B0075E7A4 /* ViewController.swift in Sources */,
 				FBA9F4AB2023E41B0075E7A4 /* AppDelegate.swift in Sources */,
 			);
@@ -428,6 +517,7 @@
 		};
 		FBA9F4D32023E41B0075E7A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40D9C75913E3D62F7CDD80C3 /* Pods-2018_Greenbelt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +532,7 @@
 		};
 		FBA9F4D42023E41B0075E7A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F2E3E9C7CD76567CF58B98B /* Pods-2018_Greenbelt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
