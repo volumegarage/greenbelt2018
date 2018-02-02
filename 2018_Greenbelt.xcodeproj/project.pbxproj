@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBA9F4AB2023E41B0075E7A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA9F4AA2023E41B0075E7A4 /* AppDelegate.swift */; };
+		FBA9F4AD2023E41B0075E7A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA9F4AC2023E41B0075E7A4 /* ViewController.swift */; };
+		FBA9F4B02023E41B0075E7A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA9F4AE2023E41B0075E7A4 /* Main.storyboard */; };
+		FBA9F4B32023E41B0075E7A4 /* _018_Greenbelt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBA9F4B12023E41B0075E7A4 /* _018_Greenbelt.xcdatamodeld */; };
+		FBA9F4B52023E41B0075E7A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBA9F4B42023E41B0075E7A4 /* Assets.xcassets */; };
+		FBA9F4B82023E41B0075E7A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA9F4B62023E41B0075E7A4 /* LaunchScreen.storyboard */; };
+		FBA9F4C32023E41B0075E7A4 /* _018_GreenbeltTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA9F4C22023E41B0075E7A4 /* _018_GreenbeltTests.swift */; };
+		FBA9F4CE2023E41B0075E7A4 /* _018_GreenbeltUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA9F4CD2023E41B0075E7A4 /* _018_GreenbeltUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBA9F4BF2023E41B0075E7A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBA9F49F2023E41A0075E7A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBA9F4A62023E41B0075E7A4;
+			remoteInfo = 2018_Greenbelt;
+		};
+		FBA9F4CA2023E41B0075E7A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBA9F49F2023E41A0075E7A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBA9F4A62023E41B0075E7A4;
+			remoteInfo = 2018_Greenbelt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBA9F4A72023E41B0075E7A4 /* 2018_Greenbelt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2018_Greenbelt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA9F4AA2023E41B0075E7A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBA9F4AC2023E41B0075E7A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBA9F4AF2023E41B0075E7A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBA9F4B22023E41B0075E7A4 /* _018_Greenbelt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _018_Greenbelt.xcdatamodel; sourceTree = "<group>"; };
+		FBA9F4B42023E41B0075E7A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBA9F4B72023E41B0075E7A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBA9F4B92023E41B0075E7A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBA9F4BE2023E41B0075E7A4 /* 2018_GreenbeltTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2018_GreenbeltTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA9F4C22023E41B0075E7A4 /* _018_GreenbeltTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _018_GreenbeltTests.swift; sourceTree = "<group>"; };
+		FBA9F4C42023E41B0075E7A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBA9F4C92023E41B0075E7A4 /* 2018_GreenbeltUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2018_GreenbeltUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA9F4CD2023E41B0075E7A4 /* _018_GreenbeltUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _018_GreenbeltUITests.swift; sourceTree = "<group>"; };
+		FBA9F4CF2023E41B0075E7A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBA9F4A42023E41B0075E7A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA9F4BB2023E41B0075E7A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA9F4C62023E41B0075E7A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBA9F49E2023E41A0075E7A4 = {
+			isa = PBXGroup;
+			children = (
+				FBA9F4A92023E41B0075E7A4 /* 2018_Greenbelt */,
+				FBA9F4C12023E41B0075E7A4 /* 2018_GreenbeltTests */,
+				FBA9F4CC2023E41B0075E7A4 /* 2018_GreenbeltUITests */,
+				FBA9F4A82023E41B0075E7A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBA9F4A82023E41B0075E7A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBA9F4A72023E41B0075E7A4 /* 2018_Greenbelt.app */,
+				FBA9F4BE2023E41B0075E7A4 /* 2018_GreenbeltTests.xctest */,
+				FBA9F4C92023E41B0075E7A4 /* 2018_GreenbeltUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBA9F4A92023E41B0075E7A4 /* 2018_Greenbelt */ = {
+			isa = PBXGroup;
+			children = (
+				FBA9F4AA2023E41B0075E7A4 /* AppDelegate.swift */,
+				FBA9F4AC2023E41B0075E7A4 /* ViewController.swift */,
+				FBA9F4AE2023E41B0075E7A4 /* Main.storyboard */,
+				FBA9F4B42023E41B0075E7A4 /* Assets.xcassets */,
+				FBA9F4B62023E41B0075E7A4 /* LaunchScreen.storyboard */,
+				FBA9F4B92023E41B0075E7A4 /* Info.plist */,
+				FBA9F4B12023E41B0075E7A4 /* _018_Greenbelt.xcdatamodeld */,
+			);
+			path = 2018_Greenbelt;
+			sourceTree = "<group>";
+		};
+		FBA9F4C12023E41B0075E7A4 /* 2018_GreenbeltTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBA9F4C22023E41B0075E7A4 /* _018_GreenbeltTests.swift */,
+				FBA9F4C42023E41B0075E7A4 /* Info.plist */,
+			);
+			path = 2018_GreenbeltTests;
+			sourceTree = "<group>";
+		};
+		FBA9F4CC2023E41B0075E7A4 /* 2018_GreenbeltUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBA9F4CD2023E41B0075E7A4 /* _018_GreenbeltUITests.swift */,
+				FBA9F4CF2023E41B0075E7A4 /* Info.plist */,
+			);
+			path = 2018_GreenbeltUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBA9F4A62023E41B0075E7A4 /* 2018_Greenbelt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBA9F4D22023E41B0075E7A4 /* Build configuration list for PBXNativeTarget "2018_Greenbelt" */;
+			buildPhases = (
+				FBA9F4A32023E41B0075E7A4 /* Sources */,
+				FBA9F4A42023E41B0075E7A4 /* Frameworks */,
+				FBA9F4A52023E41B0075E7A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 2018_Greenbelt;
+			productName = 2018_Greenbelt;
+			productReference = FBA9F4A72023E41B0075E7A4 /* 2018_Greenbelt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBA9F4BD2023E41B0075E7A4 /* 2018_GreenbeltTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBA9F4D52023E41B0075E7A4 /* Build configuration list for PBXNativeTarget "2018_GreenbeltTests" */;
+			buildPhases = (
+				FBA9F4BA2023E41B0075E7A4 /* Sources */,
+				FBA9F4BB2023E41B0075E7A4 /* Frameworks */,
+				FBA9F4BC2023E41B0075E7A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBA9F4C02023E41B0075E7A4 /* PBXTargetDependency */,
+			);
+			name = 2018_GreenbeltTests;
+			productName = 2018_GreenbeltTests;
+			productReference = FBA9F4BE2023E41B0075E7A4 /* 2018_GreenbeltTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBA9F4C82023E41B0075E7A4 /* 2018_GreenbeltUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBA9F4D82023E41B0075E7A4 /* Build configuration list for PBXNativeTarget "2018_GreenbeltUITests" */;
+			buildPhases = (
+				FBA9F4C52023E41B0075E7A4 /* Sources */,
+				FBA9F4C62023E41B0075E7A4 /* Frameworks */,
+				FBA9F4C72023E41B0075E7A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBA9F4CB2023E41B0075E7A4 /* PBXTargetDependency */,
+			);
+			name = 2018_GreenbeltUITests;
+			productName = 2018_GreenbeltUITests;
+			productReference = FBA9F4C92023E41B0075E7A4 /* 2018_GreenbeltUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBA9F49F2023E41A0075E7A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "David Cate";
+				TargetAttributes = {
+					FBA9F4A62023E41B0075E7A4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FBA9F4BD2023E41B0075E7A4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FBA9F4A62023E41B0075E7A4;
+					};
+					FBA9F4C82023E41B0075E7A4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FBA9F4A62023E41B0075E7A4;
+					};
+				};
+			};
+			buildConfigurationList = FBA9F4A22023E41A0075E7A4 /* Build configuration list for PBXProject "2018_Greenbelt" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBA9F49E2023E41A0075E7A4;
+			productRefGroup = FBA9F4A82023E41B0075E7A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBA9F4A62023E41B0075E7A4 /* 2018_Greenbelt */,
+				FBA9F4BD2023E41B0075E7A4 /* 2018_GreenbeltTests */,
+				FBA9F4C82023E41B0075E7A4 /* 2018_GreenbeltUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBA9F4A52023E41B0075E7A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA9F4B82023E41B0075E7A4 /* LaunchScreen.storyboard in Resources */,
+				FBA9F4B52023E41B0075E7A4 /* Assets.xcassets in Resources */,
+				FBA9F4B02023E41B0075E7A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA9F4BC2023E41B0075E7A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA9F4C72023E41B0075E7A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBA9F4A32023E41B0075E7A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA9F4B32023E41B0075E7A4 /* _018_Greenbelt.xcdatamodeld in Sources */,
+				FBA9F4AD2023E41B0075E7A4 /* ViewController.swift in Sources */,
+				FBA9F4AB2023E41B0075E7A4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA9F4BA2023E41B0075E7A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA9F4C32023E41B0075E7A4 /* _018_GreenbeltTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA9F4C52023E41B0075E7A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA9F4CE2023E41B0075E7A4 /* _018_GreenbeltUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBA9F4C02023E41B0075E7A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBA9F4A62023E41B0075E7A4 /* 2018_Greenbelt */;
+			targetProxy = FBA9F4BF2023E41B0075E7A4 /* PBXContainerItemProxy */;
+		};
+		FBA9F4CB2023E41B0075E7A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBA9F4A62023E41B0075E7A4 /* 2018_Greenbelt */;
+			targetProxy = FBA9F4CA2023E41B0075E7A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBA9F4AE2023E41B0075E7A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBA9F4AF2023E41B0075E7A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBA9F4B62023E41B0075E7A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBA9F4B72023E41B0075E7A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBA9F4D02023E41B0075E7A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBA9F4D12023E41B0075E7A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBA9F4D32023E41B0075E7A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 2018_Greenbelt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.volumelabs.-018-Greenbelt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBA9F4D42023E41B0075E7A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 2018_Greenbelt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.volumelabs.-018-Greenbelt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBA9F4D62023E41B0075E7A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 2018_GreenbeltTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.volumelabs.-018-GreenbeltTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2018_Greenbelt.app/2018_Greenbelt";
+			};
+			name = Debug;
+		};
+		FBA9F4D72023E41B0075E7A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 2018_GreenbeltTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.volumelabs.-018-GreenbeltTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2018_Greenbelt.app/2018_Greenbelt";
+			};
+			name = Release;
+		};
+		FBA9F4D92023E41B0075E7A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 2018_GreenbeltUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.volumelabs.-018-GreenbeltUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 2018_Greenbelt;
+			};
+			name = Debug;
+		};
+		FBA9F4DA2023E41B0075E7A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 2018_GreenbeltUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.volumelabs.-018-GreenbeltUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 2018_Greenbelt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBA9F4A22023E41A0075E7A4 /* Build configuration list for PBXProject "2018_Greenbelt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA9F4D02023E41B0075E7A4 /* Debug */,
+				FBA9F4D12023E41B0075E7A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBA9F4D22023E41B0075E7A4 /* Build configuration list for PBXNativeTarget "2018_Greenbelt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA9F4D32023E41B0075E7A4 /* Debug */,
+				FBA9F4D42023E41B0075E7A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBA9F4D52023E41B0075E7A4 /* Build configuration list for PBXNativeTarget "2018_GreenbeltTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA9F4D62023E41B0075E7A4 /* Debug */,
+				FBA9F4D72023E41B0075E7A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBA9F4D82023E41B0075E7A4 /* Build configuration list for PBXNativeTarget "2018_GreenbeltUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA9F4D92023E41B0075E7A4 /* Debug */,
+				FBA9F4DA2023E41B0075E7A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FBA9F4B12023E41B0075E7A4 /* _018_Greenbelt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FBA9F4B22023E41B0075E7A4 /* _018_Greenbelt.xcdatamodel */,
+			);
+			currentVersion = FBA9F4B22023E41B0075E7A4 /* _018_Greenbelt.xcdatamodel */;
+			path = _018_Greenbelt.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FBA9F49F2023E41A0075E7A4 /* Project object */;
+}
